@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow properties</title>
+    <style>
+        .child-div{
+            background-color: greenyellow;
+            color: palevioletred;
+            height: 100px;
+            width:150px;
+            flex-grow: 1;
+            
+        }
+        .parent-div{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 3fr 1fr;
+            /* justify-content: space-evenly;
+            margin: auto; */
+            place-content: center;
+            height: 80vh;
+            /* flex-wrap: wrap; */
+            gap: 5px;
+        }
+        /* .child1{
+            flex-grow: 1;
+        }
+        .child2{
+            flex-grow: 2;
+        }
+        .child3{
+            flex-grow: 1;
+        }*/
+        @media screen and (max-width:500px){
+            .parent-div{
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 1fr 3fr 1fr; }
+            .child-div{
+                background-color: coral;
+            }
+        }
+        @media(max-width:200px){
+            .parent-div{
+            grid-template-columns: 1fr;
+            }
+        }
+        </style> 
+</head>
+<body>
+     <!--flex-->
+      <div class="parent-div">
+        <div class="child-div child1">
+            HI
+        </div>
+        <div class="child-div child2">
+            HELLO
+        </div>
+        <div class="child-div child3">
+           BYE 
+        </div>
+         
+</body>
+</html>

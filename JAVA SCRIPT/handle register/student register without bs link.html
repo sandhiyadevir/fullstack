@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+</head>
+<body>
+    <h2>Student Forms</h2>
+    
+    <div class="form-div text-bg-dark rounded-4 shadow">
+    <form onsubmit="handleRegister(event)">
+      <table class="table table-dark">
+
+        <tr>
+           <td><label for="uname">  Username </label></td>
+           <td><input type="text" id="uname" value=" "></td>
+      </tr>
+      <tr>
+          <td><label for="pass">Password</label></td>
+          <td><input type="password" id="pass"></td>
+    </tr>
+   </table> 
+   <div class="text-center">
+
+      <button type="btn btn-light" id="submit">Submit</button>
+      <button type="btn btn-light" id="reset">Reset</button>
+   </div>
+       </form>
+    </div>
+    <script src="./script1.js"></script>
+    
+</body>
+</html>

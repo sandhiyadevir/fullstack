@@ -1,0 +1,36 @@
+body {
+    background-color: #E0E0E2;
+}
+
+/* Set text color for h1 */
+h1 {
+    color: #721817;
+}
+
+/* Set text color for h2 */
+h2 {
+    color: #FA9F42;
+}
+
+/* Center-align text using the center-text class */
+.center-text {
+    text-align: center;
+}
+
+/* Style for the logo with ID */
+#logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* Style for span elements inside h2 */
+h2 span {
+    color: #FA9F42;
+    font-size: 0.75em;
+}
+
+/* Style for copyright with ID */
+#copyright {
+    font-size: 0.75em;
+}
